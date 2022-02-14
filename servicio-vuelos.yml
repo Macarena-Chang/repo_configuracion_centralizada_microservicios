@@ -3,7 +3,7 @@ datasource:
     url: jdbc:mysql://localhost:3306/viajes?serverTimezone=UTC
     username: user
     password: Contrasenia1
-  jpa:
+jpa:
     hibernate:
       naming:
         implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
