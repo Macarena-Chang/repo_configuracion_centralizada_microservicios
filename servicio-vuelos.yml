@@ -12,11 +12,6 @@ server:
   port: 9000
 # Config de el servidor  
 eureka: 
-   instance:
-    hostname: localhost
-    nonSecurePortEnabled: false
-    securePortEnabled: true
-    securePort: ${server.port}
   client:
     serviceUrl:
       # Direccion a la que se conecta el microservicio con eureka
