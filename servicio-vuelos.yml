@@ -1,8 +1,9 @@
-datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/viajes?serverTimezone=UTC
-    username: user
-    password: Contrasenia1
+spring:
+     datasource:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://localhost:3306/viajes?serverTimezone=UTC
+      username: user
+      password: Contrasenia1
   jpa:
     hibernate:
       naming:
